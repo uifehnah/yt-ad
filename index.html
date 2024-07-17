@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Embedder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YouTube Video Embedder</h1>
+        </div>
+        <div class="input-container">
+            <form id="videoForm">
+                <label for="videoUrl">Enter YouTube Video URL:</label>
+                <input type="text" id="videoUrl" placeholder="https://www.youtube.com/watch?v=example" required>
+                <button type="submit">Embed Video</button>
+            </form>
+        </div>
+        <div class="video-container" id="videoContainer">
+            <!-- Embedded video will appear here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
